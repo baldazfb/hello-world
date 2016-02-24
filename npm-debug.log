@@ -1,0 +1,283 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'nodemon' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Bluemix_Classroom\very-simple-app-baldazfb\package.json
+5 warn package.json NodejsStarterApp@0.0.1 No license field.
+6 verbose installManyTop reading scoped package data from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\cfenv\package.json
+7 verbose installManyTop reading scoped package data from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\ejs\package.json
+8 verbose installManyTop reading scoped package data from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\express\package.json
+9 verbose installManyTop reading scoped package data from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\package.json
+10 verbose readDependencies loading dependencies from C:\Bluemix_Classroom\very-simple-app-baldazfb\package.json
+11 verbose install nodemon is installed as 1.4.0
+12 silly cache add args [ 'nodemon', null ]
+13 verbose cache add spec nodemon
+14 silly cache add parsed spec { raw: 'nodemon',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'nodemon',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed nodemon@*
+16 verbose addNamed "*" is a valid semver range for nodemon
+17 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+18 silly mapToRegistry name nodemon
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+22 verbose addNameRange registry:https://registry.npmjs.org/nodemon not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/nodemon
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 4:33:08 AM
+26 verbose request using bearer token for auth
+27 verbose request id 572f9a9a94ed23d1
+28 verbose etag "4A9I6S4UQWD6SB7ESA7W7TFF6"
+29 http request GET https://registry.npmjs.org/nodemon
+30 http 304 https://registry.npmjs.org/nodemon
+31 silly get cb [ 304,
+31 silly get   { 'cache-control': 'max-age=60',
+31 silly get     'accept-ranges': 'bytes',
+31 silly get     date: 'Mon, 10 Aug 2015 20:33:40 GMT',
+31 silly get     via: '1.1 varnish',
+31 silly get     connection: 'keep-alive',
+31 silly get     'x-served-by': 'cache-syd1624-SYD',
+31 silly get     'x-cache': 'MISS',
+31 silly get     'x-cache-hits': '0',
+31 silly get     'x-timer': 'S1439238819.614096,VS0,VE916' } ]
+32 verbose etag https://registry.npmjs.org/nodemon from cache
+33 verbose get saving nodemon to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\nodemon\.cache.json
+34 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+35 silly addNameRange versions [ 'nodemon',
+35 silly addNameRange   [ '0.1.4',
+35 silly addNameRange     '0.1.5',
+35 silly addNameRange     '0.1.6',
+35 silly addNameRange     '0.1.7',
+35 silly addNameRange     '0.1.8',
+35 silly addNameRange     '0.2.0',
+35 silly addNameRange     '0.2.1',
+35 silly addNameRange     '0.2.2',
+35 silly addNameRange     '0.3.0',
+35 silly addNameRange     '0.3.1',
+35 silly addNameRange     '0.3.2',
+35 silly addNameRange     '0.4.0',
+35 silly addNameRange     '0.4.1',
+35 silly addNameRange     '0.5.0',
+35 silly addNameRange     '0.5.1',
+35 silly addNameRange     '0.5.2',
+35 silly addNameRange     '0.5.3',
+35 silly addNameRange     '0.5.4',
+35 silly addNameRange     '0.5.5',
+35 silly addNameRange     '0.5.6',
+35 silly addNameRange     '0.5.7',
+35 silly addNameRange     '0.6.0',
+35 silly addNameRange     '0.6.1',
+35 silly addNameRange     '0.6.2',
+35 silly addNameRange     '0.6.3',
+35 silly addNameRange     '0.6.4',
+35 silly addNameRange     '0.6.5',
+35 silly addNameRange     '0.6.6',
+35 silly addNameRange     '0.6.7',
+35 silly addNameRange     '0.6.8',
+35 silly addNameRange     '0.6.9',
+35 silly addNameRange     '0.6.10',
+35 silly addNameRange     '0.6.11',
+35 silly addNameRange     '0.6.12',
+35 silly addNameRange     '0.6.13',
+35 silly addNameRange     '0.6.14',
+35 silly addNameRange     '0.6.15',
+35 silly addNameRange     '0.6.16',
+35 silly addNameRange     '0.6.17',
+35 silly addNameRange     '0.6.18',
+35 silly addNameRange     '0.6.19',
+35 silly addNameRange     '0.6.20',
+35 silly addNameRange     '0.6.21',
+35 silly addNameRange     '0.6.22',
+35 silly addNameRange     '0.6.23',
+35 silly addNameRange     '0.7.0',
+35 silly addNameRange     '0.7.1',
+35 silly addNameRange     '0.7.2',
+35 silly addNameRange     '0.7.3',
+35 silly addNameRange     '0.7.4',
+35 silly addNameRange     '0.7.5',
+35 silly addNameRange     '0.7.6',
+35 silly addNameRange     '0.7.7',
+35 silly addNameRange     '0.7.8',
+35 silly addNameRange     '0.7.10',
+35 silly addNameRange     '0.9.0',
+35 silly addNameRange     '0.9.1',
+35 silly addNameRange     '0.9.2',
+35 silly addNameRange     '0.9.3',
+35 silly addNameRange     '0.9.5',
+35 silly addNameRange     '0.9.6',
+35 silly addNameRange     '0.9.7',
+35 silly addNameRange     '0.9.10',
+35 silly addNameRange     '0.9.11',
+35 silly addNameRange     '0.9.12',
+35 silly addNameRange     '0.9.14',
+35 silly addNameRange     '0.9.16',
+35 silly addNameRange     '0.9.17',
+35 silly addNameRange     '1.0.0',
+35 silly addNameRange     '1.0.1',
+35 silly addNameRange     '1.0.2',
+35 silly addNameRange     '1.0.2-rc',
+35 silly addNameRange     '0.6.10-a',
+35 silly addNameRange     '1.0.2-rc3',
+35 silly addNameRange     '1.0.2-rc4',
+35 silly addNameRange     '1.0.3',
+35 silly addNameRange     '1.0.4',
+35 silly addNameRange     '1.0.5',
+35 silly addNameRange     '1.0.6',
+35 silly addNameRange     '1.0.7',
+35 silly addNameRange     '1.0.8',
+35 silly addNameRange     '1.0.9',
+35 silly addNameRange     '1.0.10',
+35 silly addNameRange     '1.0.11',
+35 silly addNameRange     '1.0.12',
+35 silly addNameRange     '1.0.13',
+35 silly addNameRange     '1.0.14',
+35 silly addNameRange     '1.0.15',
+35 silly addNameRange     '1.0.16',
+35 silly addNameRange     '1.0.17-rc1',
+35 silly addNameRange     '1.0.17-rc2',
+35 silly addNameRange     '1.0.17',
+35 silly addNameRange     '1.0.18',
+35 silly addNameRange     '1.0.19',
+35 silly addNameRange     '1.0.20',
+35 silly addNameRange     '1.1.0-alpha',
+35 silly addNameRange     '1.1.0',
+35 silly addNameRange     '1.1.1',
+35 silly addNameRange     '1.2.0',
+35 silly addNameRange     '1.2.1',
+35 silly addNameRange     '1.3.0-0',
+35 silly addNameRange     '1.3.0-1',
+35 silly addNameRange     '1.3.0-2',
+35 silly addNameRange     '1.3.0-3',
+35 silly addNameRange     '1.3.0-4',
+35 silly addNameRange     '1.3.0-5',
+35 silly addNameRange     '1.3.0-6',
+35 silly addNameRange     '1.3.0-7',
+35 silly addNameRange     '1.3.0',
+35 silly addNameRange     '1.3.1',
+35 silly addNameRange     '1.3.2',
+35 silly addNameRange     '1.3.3',
+35 silly addNameRange     '1.3.5',
+35 silly addNameRange     '1.3.6',
+35 silly addNameRange     '1.3.7',
+35 silly addNameRange     '1.3.8',
+35 silly addNameRange     '1.4.0' ] ]
+36 silly addNamed nodemon@1.4.0
+37 verbose addNamed "1.4.0" is a plain semver version for nodemon
+38 silly cache afterAdd nodemon@1.4.0
+39 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nodemon\1.4.0\package\package.json not in flight; writing
+40 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nodemon\1.4.0\package\package.json written
+41 silly install resolved [ { name: 'nodemon',
+41 silly install resolved     homepage: 'http://nodemon.io',
+41 silly install resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+41 silly install resolved     bin: { nodemon: './bin/nodemon.js' },
+41 silly install resolved     engines: { node: '>=0.8' },
+41 silly install resolved     repository:
+41 silly install resolved      { type: 'git',
+41 silly install resolved        url: 'git+ssh://git@github.com/remy/nodemon.git' },
+41 silly install resolved     description: 'Simple monitor script for use during development of a node.js app.',
+41 silly install resolved     keywords:
+41 silly install resolved      [ 'monitor',
+41 silly install resolved        'development',
+41 silly install resolved        'restart',
+41 silly install resolved        'autoload',
+41 silly install resolved        'reload',
+41 silly install resolved        'terminal' ],
+41 silly install resolved     version: '1.4.0',
+41 silly install resolved     preferGlobal: 'true',
+41 silly install resolved     license: 'MIT',
+41 silly install resolved     main: './lib/nodemon',
+41 silly install resolved     scripts:
+41 silly install resolved      { coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+41 silly install resolved        ':test': 'mocha --timeout 30000 --ui bdd test/**/*.test.js',
+41 silly install resolved        test: 'for FILE in test/**/*.test.js; do echo $FILE; ./node_modules/.bin/mocha --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+41 silly install resolved        web: 'node web' },
+41 silly install resolved     devDependencies:
+41 silly install resolved      { 'coffee-script': '~1.7.1',
+41 silly install resolved        connect: '~2.19.1',
+41 silly install resolved        istanbul: '~0.2.10',
+41 silly install resolved        mocha: '^2.0.1',
+41 silly install resolved        should: '~4.0.0' },
+41 silly install resolved     dependencies:
+41 silly install resolved      { minimatch: '~0.3.0',
+41 silly install resolved        'ps-tree': '~0.0.3',
+41 silly install resolved        touch: '~0.0.3',
+41 silly install resolved        'update-notifier': '^0.3.0' },
+41 silly install resolved     gitHead: '6152786ba2254eb7e3d1936f3b42bab3b159bcaf',
+41 silly install resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+41 silly install resolved     _id: 'nodemon@1.4.0',
+41 silly install resolved     _shasum: 'f566146245c82910a4e7d051c10afe0535e9394c',
+41 silly install resolved     _from: 'nodemon@*',
+41 silly install resolved     _npmVersion: '2.13.1',
+41 silly install resolved     _nodeVersion: '0.10.38',
+41 silly install resolved     _npmUser: { name: 'remy', email: 'remy@leftlogic.com' },
+41 silly install resolved     dist:
+41 silly install resolved      { shasum: 'f566146245c82910a4e7d051c10afe0535e9394c',
+41 silly install resolved        tarball: 'http://registry.npmjs.org/nodemon/-/nodemon-1.4.0.tgz' },
+41 silly install resolved     maintainers: [ [Object] ],
+41 silly install resolved     directories: {},
+41 silly install resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.4.0.tgz',
+41 silly install resolved     readme: 'ERROR: No README data found!' } ]
+42 info install nodemon@1.4.0 into C:\Bluemix_Classroom\very-simple-app-baldazfb
+43 info installOne nodemon@1.4.0
+44 verbose installOne of nodemon to C:\Bluemix_Classroom\very-simple-app-baldazfb not in flight; installing
+45 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nodemon-1410183320d07153.lock for C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+46 silly install write writing nodemon 1.4.0 to C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+47 verbose unbuild node_modules\nodemon
+48 info preuninstall nodemon@1.4.0
+49 info uninstall nodemon@1.4.0
+50 verbose unbuild rmStuff nodemon@1.4.0 from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules
+51 silly gentlyRm C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon.cmd is being gently removed
+52 silly gentlyRm verifying C:\Bluemix_Classroom\very-simple-app-baldazfb is an npm working directory
+53 silly gentlyRm containing path C:\Bluemix_Classroom\very-simple-app-baldazfb is under npm's control, in C:\Bluemix_Classroom\very-simple-app-baldazfb
+54 silly gentlyRm deletion target C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon.cmd is under C:\Bluemix_Classroom\very-simple-app-baldazfb
+55 verbose gentlyRm vacuuming from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon.cmd up to C:\Bluemix_Classroom\very-simple-app-baldazfb
+56 silly vacuum-fs removing C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon.cmd
+57 silly vacuum-fs quitting because other entries in C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin
+58 silly gentlyRm C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon is being gently removed
+59 silly gentlyRm verifying C:\Bluemix_Classroom\very-simple-app-baldazfb is an npm working directory
+60 silly gentlyRm containing path C:\Bluemix_Classroom\very-simple-app-baldazfb is under npm's control, in C:\Bluemix_Classroom\very-simple-app-baldazfb
+61 silly gentlyRm deletion target C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon is under C:\Bluemix_Classroom\very-simple-app-baldazfb
+62 verbose gentlyRm vacuuming from C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon up to C:\Bluemix_Classroom\very-simple-app-baldazfb
+63 silly vacuum-fs removing C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin\nodemon
+64 silly vacuum-fs removing C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\.bin
+65 silly vacuum-fs quitting because other entries in C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules
+66 info postuninstall nodemon@1.4.0
+67 silly gentlyRm C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon is being purged from base C:\Bluemix_Classroom\very-simple-app-baldazfb
+68 verbose gentlyRm don't care about contents; nuking C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+69 silly vacuum-fs purging C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+70 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nodemon-1410183320d07153.lock for C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+71 verbose stack Error: EPERM, unlink 'C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy'
+71 verbose stack     at Error (native)
+72 verbose cwd C:\Bluemix_Classroom\very-simple-app-baldazfb
+73 error Windows_NT 6.1.7601
+74 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "nodemon"
+75 error node v0.12.7
+76 error npm  v2.11.3
+77 error path C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy
+78 error code EPERM
+79 error errno -4048
+80 error Error: EPERM, unlink 'C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy'
+80 error     at Error (native)
+80 error  { [Error: EPERM, unlink 'C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy']
+80 error   errno: -4048,
+80 error   code: 'EPERM',
+80 error   path: 'C:\\Bluemix_Classroom\\very-simple-app-baldazfb\\node_modules\\nodemon\\node_modules\\update-notifier\\node_modules\\latest-version\\node_modules\\package-json\\node_modules\\got\\node_modules\\duplexify\\node_modules\\end-of-stream\\node_modules\\once\\node_modules\\wrappy' }
+81 error Please try running this command again as root/Administrator.
+82 verbose exit [ -4048, true ]
+83 verbose unbuild node_modules\nodemon
+84 silly gentlyRm C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon is being purged from base C:\Bluemix_Classroom\very-simple-app-baldazfb
+85 verbose gentlyRm don't care about contents; nuking C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+86 silly vacuum-fs purging C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon
+87 error error rolling back Error: EPERM, unlink 'C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy'
+87 error error rolling back     at Error (native)
+87 error error rolling back  { [Error: EPERM, unlink 'C:\Bluemix_Classroom\very-simple-app-baldazfb\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy']
+87 error error rolling back   errno: -4048,
+87 error error rolling back   code: 'EPERM',
+87 error error rolling back   path: 'C:\\Bluemix_Classroom\\very-simple-app-baldazfb\\node_modules\\nodemon\\node_modules\\update-notifier\\node_modules\\latest-version\\node_modules\\package-json\\node_modules\\got\\node_modules\\duplexify\\node_modules\\end-of-stream\\node_modules\\once\\node_modules\\wrappy' }
